@@ -5,7 +5,7 @@
 ### Public Android release + APK download links
 
 - Repo flipped to public; the Android APK now ships on this repo's GitHub Releases (`v1.0.3 "Cramio Android"`).
-- Landing page links to the APK as a direct, auto-saving download (`releases/latest/download/cramio-v1.0.3.apk`) in the Android section ("Download the APK") and the availability note; FAQ (page copy + JSON-LD answer) and `README` link the releases page. `llms.txt` carries the direct link. Release assets are named `cramio-vX.Y.Z.apk` (duplicates removed, `APK_SHA256SUMS.txt` rewritten). Direct links embed the version: bump them on each release.
+- Landing page links to the APK as a direct, auto-saving download (`releases/latest/download/cramio-v1.0.3.apk`) in the hero ("Download the APK" secondary CTA, replacing "Explore the app"), the Android section, and the availability note; FAQ (page copy + JSON-LD answer) and `README` link the releases page. `llms.txt` carries the direct link. Release assets are named `cramio-vX.Y.Z.apk` (duplicates removed, `APK_SHA256SUMS.txt` rewritten). Direct links embed the version: bump them on each release.
 - `AGENTS.md` hard constraint rewritten: the old "never add APK links / restricted release channel" rule is obsolete.
 
 ### Keyword-first titles + perf pass (SEO course follow-up)
