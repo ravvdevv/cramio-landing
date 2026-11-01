@@ -2,22 +2,22 @@
 
 > Cramio is a focused study space: notes, PDFs, AI study chat, quizzes, and flashcards in one place. Tagline: "Cram less. Learn more."
 
-Study app for students. Android-first: the APK auto-downloads from https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk, and the web app works in any browser on iPhone, iPad, or desktop, same account everywhere.
+Study app for students. Android-first: the Android app installs from https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk, and everything else runs at https://app.cramio.site on iPhone, iPad, or a computer with nothing to install. Same account everywhere.
 
 ## Links
 
 - [Cramio landing page](https://cramio.site/): marketing site with features, how it works, and FAQ
-- [Cramio web app](https://app.cramio.site/): the product itself, usable in any browser
+- [Cramio app](https://app.cramio.site/): the product itself, opens on any device with nothing to install
 
 ## What Cramio does
 
 - Keeps notes, PDFs, AI study chat, quizzes, and flashcards together in one focused space
-- Built Android-first; web app works everywhere with the same study space and account
+- Built Android-first; on any other device Cramio opens in the browser with nothing to install: same study space and account
 - Some content can be available offline on-device; AI chat, sign-in, and cloud sync need internet
 
 ## FAQ
 
-- Can I use Cramio on the web? Yes, if you're not on Android, the web app is the way in: same study space, same account, any browser.
+- Can I use Cramio on the web? Yes: open Cramio on any device (iPhone, iPad, or a computer), nothing to install, same account everywhere.
 - Does Cramio work offline? Some on-device content may; AI chat, sign-in, and cloud sync need a connection.
-- Is there an Android app? Yes: the APK auto-downloads from https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk, and the web app works in any browser.
+- Is there an Android app? Yes: the app installs from https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk, and on iPhone, iPad, or a computer Cramio opens right on the website with nothing to install.
 - What can I study with Cramio? Your notes and PDFs, topic questions, quizzes, and flashcards; you pick what and when.
