@@ -3,6 +3,10 @@
 (function () {
   'use strict';
 
+  // reveal content once JS is confirmed working
+  document.documentElement.classList.remove('no-js');
+  document.documentElement.classList.add('js');
+
   // ---- footer year ----
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
