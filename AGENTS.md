@@ -14,7 +14,7 @@ Standalone single-page marketing site for Cramio in **vanilla HTML/CSS/JS**. Dep
 
 ## Hard constraints (from README + CHANGELOG)
 
-- The Android app's source repo is **private**: release APK URLs return HTTP 404 to anonymous visitors. Never add public-facing APK download links; all primary CTAs must point at the web app (`https://app.cramio.site`). Keep the FAQ wording consistent with this (distribution is "restricted release channel").
+- The APK is publicly downloadable: it ships on this repo's GitHub Releases as `cramio-vX.Y.Z.apk`. CTAs use the direct, auto-saving link (`https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk`) while FAQ answers and `llms.txt` may link the releases page. Direct links embed the version, so update them whenever a new release ships.
 - Hero/banner and brand/mascot images live in this repo's `public/` folder and are referenced with root-absolute paths (`/banner.jpg`, `/icon.png`).
 
 ## Site conventions

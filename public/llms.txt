@@ -2,7 +2,7 @@
 
 > Cramio is a focused study space: notes, PDFs, AI study chat, quizzes, and flashcards in one place. Tagline: "Cram less. Learn more."
 
-Study app for students. Android-first: the native Android app plus the web app in the browser on iPhone, iPad, or desktop, same account everywhere.
+Study app for students. Android-first: the APK auto-downloads from https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk, and the web app works in any browser on iPhone, iPad, or desktop, same account everywhere.
 
 ## Links
 
@@ -19,5 +19,5 @@ Study app for students. Android-first: the native Android app plus the web app i
 
 - Can I use Cramio on the web? Yes, if you're not on Android, the web app is the way in: same study space, same account, any browser.
 - Does Cramio work offline? Some on-device content may; AI chat, sign-in, and cloud sync need a connection.
-- Is there an Android app? Yes: Cramio is Android-first, with a native Android app plus the web app in the browser.
+- Is there an Android app? Yes: the APK auto-downloads from https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk, and the web app works in any browser.
 - What can I study with Cramio? Your notes and PDFs, topic questions, quizzes, and flashcards; you pick what and when.
