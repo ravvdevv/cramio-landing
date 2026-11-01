@@ -1,4 +1,3 @@
-# Cramio landing page: https://cramio.site
 User-agent: *
 Allow: /
 
