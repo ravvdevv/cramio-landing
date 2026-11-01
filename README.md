@@ -24,13 +24,7 @@ This repository holds Cramio's public landing page: a single static site built w
 - **[Landing page](https://cramio.site)** &middot; https://cramio.site &middot; public site + Android web-update host
 - **Android app** &middot; the native one is Android-first &middot; everyone else: the web app covers you in any browser
 
-## How it's made
-
-- Neo-brutalist design: thick ink borders, hard offset shadows, flat accent colors
-- Fully functional without JavaScript; `public/main.js` only adds scroll reveal, mobile-nav polish, and the footer year
-- Animation respects `prefers-reduced-motion`
-
-Try it locally:
+## Try it locally
 
 ```bash
 python -m http.server 8931 --directory public
