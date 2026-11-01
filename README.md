@@ -16,18 +16,8 @@
 
 Cramio is the study space that keeps you reading instead of tab-hopping: notes, PDFs, AI study chat, quizzes, and flashcards in one focused place. Open it anywhere: native on Android, in the browser on iPhone and desktop.
 
-This repository holds Cramio's public landing page: a single static site built with plain HTML, CSS, and vanilla JavaScript. No framework, no bundler, no dependencies, and no build step: `public/` is hand-authored source served as-is.
-
 ## Where to use Cramio
 
 - **[Web app](https://app.cramio.site)** &middot; the real product, right now &middot; any browser on iPhone, iPad, or desktop, same account everywhere
 - **[Landing page](https://cramio.site)** &middot; https://cramio.site &middot; public site + Android web-update host
 - **Android app** &middot; the native one is Android-first &middot; everyone else: the web app covers you in any browser
-
-## Try it locally
-
-```bash
-python -m http.server 8931 --directory public
-```
-
-then open http://localhost:8931.
