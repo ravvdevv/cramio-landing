@@ -1,6 +1,12 @@
+<div align="center">
+  <img src="public/icon.png" width="120" alt="Cramio mascot icon" />
+</div>
+
 # Cramio
 
 **Cram less. Learn more.**
+
+![Cramio banner: notes, PDFs, AI study chat, quizzes, and flashcards in one focused study space](public/banner.jpg)
 
 Cramio is the study space that keeps you reading instead of tab-hopping: notes, PDFs, AI study chat, quizzes, and flashcards in one focused place. Open it anywhere: native on Android, in the browser on iPhone and desktop.
 
