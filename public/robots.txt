@@ -1,4 +1,4 @@
-# Cramio landing page — https://cramio.site
+# Cramio landing page: https://cramio.site
 User-agent: *
 Allow: /
 

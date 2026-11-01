@@ -4,7 +4,7 @@
 
 ### Keyword-first titles + perf pass (SEO course follow-up)
 
-- `<title>`, `og:title`, and `twitter:title` swapped from the brand slogan (`Cramio | Cram less. Learn more.`) to the keyword-bearing variant `Cramio — Study App for Notes, Quizzes & Flashcards`. The slogan lives on in the H1 and JSON-LD `slogan`, so the brand voice stays on-page; the search/social titles now describe what the product is instead of only what it promises.
+- `<title>`, `og:title`, and `twitter:title` swapped from the brand slogan (`Cramio | Cram less. Learn more.`) to the keyword-bearing variant `Cramio - Study App for Notes, Quizzes & Flashcards`. The slogan lives on in the H1 and JSON-LD `slogan`, so the brand voice stays on-page; the search/social titles now describe what the product is instead of only what it promises.
 - Removed the render-blocking Google Fonts `@import` from the top of `styles.css`; fonts now load via `preconnect` hints + `<link rel="stylesheet">` in the HTML head.
 - `icon.png` resized 1024×1024 → 512×512 (418 KB → 172 KB). Largest real display is the 290px Android mockup, so retina still covered; JSON-LD org-logo and nav/footer uses unaffected.
 - Closing-card and footer mascot `<img>` now `loading="lazy"` + `decoding="async"`; the nav icon stays eager.
