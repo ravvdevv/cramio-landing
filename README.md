@@ -1,10 +1,16 @@
 <div align="center">
+
   <img src="public/icon.png" width="120" alt="Cramio mascot icon" />
+
+  # Cramio
+
+  **Cram less. Learn more.**
+
+  [![Open the web app](https://img.shields.io/badge/OPEN%20THE%20WEB%20APP-app.cramio.site-black?style=for-the-badge)](https://app.cramio.site)&ensp;
+  [![Landing page](https://img.shields.io/badge/LANDING-cramio.site-black?style=for-the-badge)](https://cramio.site)&ensp;
+  ![Stack](https://img.shields.io/badge/STACK-vanilla%20HTML%2FCSS%2FJS-yellow?style=for-the-badge)
+
 </div>
-
-# Cramio
-
-**Cram less. Learn more.**
 
 ![Cramio banner: notes, PDFs, AI study chat, quizzes, and flashcards in one focused study space](public/banner.jpg)
 
@@ -14,12 +20,20 @@ This repository holds Cramio's public landing page: a single static site built w
 
 ## Where to use Cramio
 
-- **Web app (iPhone, iPad, desktop):** https://app.cramio.site, works in any browser, same account everywhere
-- **Landing page and Android web-update host:** https://cramio.site
-- **Android:** the native app is Android-first and ships through a restricted release channel, not an open download; that's by design
+- **[Web app](https://app.cramio.site)** &middot; the real product, right now &middot; any browser on iPhone, iPad, or desktop, same account everywhere
+- **[Landing page](https://cramio.site)** &middot; https://cramio.site &middot; public site + Android web-update host
+- **Android app** &middot; the native one is Android-first &middot; everyone else: the web app covers you in any browser
 
 ## How it's made
 
 - Neo-brutalist design: thick ink borders, hard offset shadows, flat accent colors
 - Fully functional without JavaScript; `public/main.js` only adds scroll reveal, mobile-nav polish, and the footer year
 - Animation respects `prefers-reduced-motion`
+
+Try it locally:
+
+```bash
+python -m http.server 8931 --directory public
+```
+
+then open http://localhost:8931.
