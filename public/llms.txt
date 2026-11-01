@@ -13,6 +13,12 @@ Study app for students. Android-first: the Android app installs from https://git
 
 - [Cramio landing page](https://cramio.site/): marketing site with features, how it works, and FAQ
 - [Cramio app](https://app.cramio.site/): the product itself, opens on any device with nothing to install
+- [AI Flashcard Generator](https://cramio.site/ai-flashcard-generator/): turn notes and PDFs into flashcards with AI
+- [AI Quiz Generator](https://cramio.site/ai-quiz-generator/): generate practice quizzes from study material
+- [PDF to Flashcards](https://cramio.site/pdf-to-flashcards/): convert PDF study materials into flashcards
+- [AI Notes Generator](https://cramio.site/ai-notes-generator/): generate organized study notes from any topic
+- [Android Study App](https://cramio.site/android-study-app/): Cramio for Android phones
+- [About Cramio](https://cramio.site/about/): our story and mission
 
 ## What Cramio does
 
