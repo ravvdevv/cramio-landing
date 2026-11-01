@@ -7,8 +7,7 @@
   **Cram less. Learn more.**
 
   [![Open the web app](https://img.shields.io/badge/OPEN%20THE%20WEB%20APP-app.cramio.site-black?style=for-the-badge)](https://app.cramio.site)&ensp;
-  [![Landing page](https://img.shields.io/badge/LANDING-cramio.site-black?style=for-the-badge)](https://cramio.site)&ensp;
-  ![Stack](https://img.shields.io/badge/STACK-vanilla%20HTML%2FCSS%2FJS-yellow?style=for-the-badge)
+  [![Landing page](https://img.shields.io/badge/LANDING-cramio.site-black?style=for-the-badge)](https://cramio.site)
 
 </div>
 
