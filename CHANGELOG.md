@@ -2,6 +2,10 @@
 
 ## 2026-11-01
 
+### Headline wording revert
+
+- Headline is back to "Cram less. **Learn more.**" in all four spots (H1, `<title>`, `og:title`, `twitter:title`).
+
 ### Platform story "Android-first, web app for everyone"
 
 - Rewrote the platform copy to match the real distribution: Cramio is Android-first (native app ships through a restricted release channel), and everyone else — iPhone, iPad, desktop — uses the web app in the browser. Wording threaded through four touchpoints: hero footnote ("BUILT ANDROID-FIRST · NOT ON ANDROID? THE WEB APP WORKS EVERYWHERE"), the Android section eyebrow ("BUILT ANDROID-FIRST"), the availability note (explicit web-app coverage for iPhone/iPad/desktop with the same account), and two FAQ answers ("Can I use Cramio on the web?" is now framed as the way in on non-Android devices; the Android download FAQ keeps the restricted-channel wording, no public APK claims).
