@@ -4,28 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f7f6f2" />
-    <meta name="description" content="Study with less chaos. Keep your notes, PDFs, AI study chat, quizzes, and flashcards together in one focused space with Cramio." />
+    <meta name="description" content="Cramio is the study app for students: notes, PDFs, AI study chat, quizzes, and flashcards in one focused space. Get the Android app or use it on any device, nothing to install." />
     <meta name="application-name" content="Cramio" />
+    <meta name="keywords" content="study app, student app, notes, flashcards, quizzes, AI study chat, Android app" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://cramio.site/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Cramio - Study App for Notes, Quizzes &amp; Flashcards" />
-    <meta property="og:description" content="Your notes, AI study chat, quizzes, and flashcards in one focused study space. Spend less time organizing and more time understanding." />
+    <meta property="og:site_name" content="Cramio" />
+    <meta property="og:title" content="Cramio - Study App for Students: Notes, Flashcards &amp; Quizzes" />
+    <meta property="og:description" content="Cramio is the study app for students: notes, PDFs, AI study chat, quizzes, and flashcards in one focused space. Get the Android app or use it on any device, nothing to install." />
     <meta property="og:url" content="https://cramio.site/" />
     <meta property="og:image" content="https://cramio.site/banner.jpg" />
     <meta property="og:image:alt" content="Cramio study app preview showing notes, AI chat, quizzes, and flashcards" />
     <meta property="og:image:width" content="2048" />
     <meta property="og:image:height" content="1152" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Cramio - Study App for Notes, Quizzes &amp; Flashcards" />
-    <meta name="twitter:description" content="Your notes, AI study chat, quizzes, and flashcards in one focused study space. Spend less time organizing and more time understanding." />
+    <meta name="twitter:title" content="Cramio - Study App for Students: Notes, Flashcards &amp; Quizzes" />
+    <meta name="twitter:description" content="Cramio is the study app for students: notes, PDFs, AI study chat, quizzes, and flashcards in one focused space. Get the Android app or use it on any device, nothing to install." />
     <meta name="twitter:image" content="https://cramio.site/banner.jpg" />
     <meta name="twitter:image:alt" content="Cramio study app preview" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <title>Cramio - Study App for Notes, Quizzes &amp; Flashcards</title>
+    <title>Cramio - Study App for Students: Notes, Flashcards &amp; Quizzes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" />
@@ -40,14 +42,15 @@
           "name": "Cramio",
           "url": "https://cramio.site/",
           "logo": "https://cramio.site/icon.png",
-          "slogan": "Cram less. Learn more."
+          "slogan": "Cram less. Learn more.",
+          "sameAs": "https://github.com/ravvdevv/cramio-landing"
         },
         {
           "@type": "WebSite",
           "@id": "https://cramio.site/#site",
           "url": "https://cramio.site/",
           "name": "Cramio",
-          "description": "Study with less chaos. Keep your notes, PDFs, AI study chat, quizzes, and flashcards together in one focused space with Cramio.",
+          "description": "Study app for students: notes, PDFs, AI study chat, quizzes, and flashcards in one focused space. Get the Android app or use it on any device, nothing to install.",
           "publisher": { "@id": "https://cramio.site/#org" },
           "inLanguage": "en"
         },
@@ -59,7 +62,28 @@
           "operatingSystem": "Web, Android",
           "description": "A focused study space with notes, PDFs, AI study chat, quizzes, and flashcards. Made for Android phones, and it works on iPhone, iPad, and computers with nothing to install.",
           "offers": { "@type": "Offer", "url": "https://app.cramio.site/", "availability": "https://schema.org/InStock" },
-          "publisher": { "@id": "https://cramio.site/#org" }
+          "publisher": { "@id": "https://cramio.site/#org" },
+          "audience": "Students",
+          "isAccessibleForFree": true
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://cramio.site/#page",
+          "url": "https://cramio.site/",
+          "name": "Cramio - Study App for Students",
+          "description": "Cramio is the study app for students: notes, PDFs, AI study chat, quizzes, and flashcards in one focused space. Android app available, plus web access on any device.",
+          "isPartOf": { "@id": "https://cramio.site/#site" },
+          "primaryContentOfPage": { "@id": "https://cramio.site/#app" },
+          "inLanguage": "en",
+          "isAccessibleForFree": true
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://cramio.site/#breadcrumbs",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cramio.site/" },
+            { "@type": "ListItem", "position": 2, "name": "Study App", "item": "https://app.cramio.site/" }
+          ]
         },
         {
           "@type": "FAQPage",
@@ -156,7 +180,7 @@
             <span class="hero-spark hero-spark-two" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-star"/></svg></span>
             <div class="eyebrow reveal">A BETTER WAY TO STUDY</div>
             <h1 class="reveal">Cram less.<br /><span>Learn more.</span></h1>
-            <p class="hero-description reveal">Your notes, AI study chat, and flashcards. All in one focused space, so you can spend less time organizing and more time understanding.</p>
+            <p class="hero-description reveal">Study app for students: keep your notes, PDFs, AI study chat, quizzes, and flashcards in one focused space. Spend less time organizing and more time understanding.</p>
             <div class="hero-actions reveal">
               <a class="button button-primary" href="https://app.cramio.site">Start studying <span class="icon"><svg><use href="#i-arrow-right"/></svg></span></a>
               <a class="button button-gold" href="https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk">Get the Android app <span class="icon"><svg><use href="#i-arrow-down"/></svg></span></a>
@@ -167,7 +191,7 @@
             <span class="hero-spark hero-spark-one" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg></span>
             <div class="hero-visual-top"><span>YOUR STUDY SPACE, AT A GLANCE</span><span>CRAMIO 01</span></div>
             <div class="hero-image-frame">
-              <img src="/banner.jpg" alt="Cramio learning app preview" width="2048" height="1152" fetchpriority="high" />
+              <img src="/banner.jpg" alt="Cramio study app preview showing notes, AI chat, quizzes, and flashcards on Android phone" width="2048" height="1152" fetchpriority="high" />
             </div>
             <div class="hero-float-card">
               <span class="float-icon"><svg><use href="#i-star"/></svg></span>
@@ -334,7 +358,7 @@
           <div class="android-preview reveal">
             <div class="android-preview-label">STUDY WHEREVER YOU ARE <span>ANDROID</span></div>
             <div class="android-frame">
-              <img class="android-mockup" src="/icon.png" alt="Cramio mascot" loading="lazy" decoding="async" />
+              <img class="android-mockup" src="/icon.png" alt="Cramio Android app mascot icon" loading="lazy" decoding="async" />
               <span class="android-orbit orbit-one"></span>
               <span class="android-orbit orbit-two"></span>
             </div>

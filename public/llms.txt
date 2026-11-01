@@ -4,6 +4,11 @@
 
 Study app for students. Android-first: the Android app installs from https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk, and everything else runs at https://app.cramio.site on iPhone, iPad, or a computer with nothing to install. Same account everywhere.
 
+## Get It
+
+- [Android app (direct download)](https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk): install on an Android phone
+- [Web app](https://app.cramio.site/): open on any device, nothing to install, same account
+
 ## Links
 
 - [Cramio landing page](https://cramio.site/): marketing site with features, how it works, and FAQ
@@ -12,7 +17,7 @@ Study app for students. Android-first: the Android app installs from https://git
 ## What Cramio does
 
 - Keeps notes, PDFs, AI study chat, quizzes, and flashcards together in one focused space
-- Built Android-first; on any other device Cramio opens in the browser with nothing to install: same study space and account
+- Built Android-first; on any other device Cramio opens right on the website with nothing to install: same study space and account
 - Some content can be available offline on-device; AI chat, sign-in, and cloud sync need internet
 
 ## FAQ
