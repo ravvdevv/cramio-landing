@@ -30,6 +30,8 @@
     <title>Cramio - Study App for Students: Notes, Flashcards &amp; Quizzes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://app.cramio.site" />
+    <link rel="preconnect" href="https://github.com" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" />
     <link rel="stylesheet" href="/styles.css" />
     <script type="application/ld+json">
@@ -65,6 +67,35 @@
           "publisher": { "@id": "https://cramio.site/#org" },
           "audience": "Students",
           "isAccessibleForFree": true
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://cramio.site/#banner",
+          "url": "https://cramio.site/banner.jpg",
+          "name": "Cramio study app preview",
+          "description": "Cramio study app preview showing notes, AI chat, quizzes, and flashcards on Android phone",
+          "width": 2048,
+          "height": 1152,
+          "publisher": { "@id": "https://cramio.site/#org" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://cramio.site/#android-app",
+          "name": "Cramio - Study App for Android",
+          "applicationCategory": "EducationalApplication",
+          "operatingSystem": "Android",
+          "audience": "Students",
+          "description": "Cramio Android app: notes, PDFs, AI study chat, quizzes, and flashcards in one focused study space.",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "USD",
+            "price": "0"
+          },
+          "publisher": { "@id": "https://cramio.site/#org" },
+          "isAccessibleForFree": true,
+          "sameAs": "https://app.cramio.site/"
         },
         {
           "@type": "WebPage",
