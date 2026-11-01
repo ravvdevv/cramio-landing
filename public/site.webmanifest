@@ -1,0 +1,20 @@
+{
+  "name": "Cramio",
+  "short_name": "Cramio",
+  "description": "Cramio: your study space, your rules.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#f7f4ee",
+  "background_color": "#f7f4ee",
+  "display": "standalone"
+}
