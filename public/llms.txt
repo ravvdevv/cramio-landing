@@ -19,6 +19,10 @@ Study app for students. Android-first: the Android app installs from https://git
 - [AI Notes Generator](https://cramio.site/ai-notes-generator/): generate organized study notes from any topic
 - [Android Study App](https://cramio.site/android-study-app/): Cramio for Android phones
 - [About Cramio](https://cramio.site/about/): our story and mission
+- [Blog](https://cramio.site/blog/): original study guides for students
+- [How to Make Effective Flashcards Using AI](https://cramio.site/blog/how-to-make-effective-flashcards-using-ai/): flashcard rules and AI prompt templates
+- [Turn PDF Notes into Flashcards](https://cramio.site/blog/how-to-turn-pdf-notes-into-flashcards/): convert study materials into flashcards
+- [Spaced Repetition Study Guide](https://cramio.site/blog/spaced-repetition-study-guide/): how to schedule reviews for long-term memory
 
 ## What Cramio does
 
