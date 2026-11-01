@@ -13,7 +13,7 @@
 
 <div align="center"><img src="public/banner.jpg" width="680" alt="Cramio banner: notes, PDFs, AI study chat, quizzes, and flashcards in one focused study space" /></div>
 
-Cramio is the study space that keeps you reading instead of tab-hopping: notes, PDFs, AI study chat, quizzes, and flashcards in one focused place. Open it anywhere: native on Android, in the browser on iPhone and desktop.
+**Cramio is a study app for students** that keeps you reading instead of tab-hopping: notes, PDFs, AI study chat, quizzes, and flashcards in one focused place. Open it anywhere: native on Android, in the browser on iPhone and desktop.
 
 ## Where to use Cramio
 
