@@ -17,7 +17,7 @@ Study app for students. Android-first: the Android app installs from https://git
 
 ## FAQ
 
-- Can I use Cramio on the web? Yes: open Cramio on any device (iPhone, iPad, or a computer), nothing to install, same account everywhere.
+- Can I use Cramio on the web? Yes: just open this website on an iPhone, iPad, or computer. Nothing to install, same account everywhere.
 - Does Cramio work offline? Some on-device content may; AI chat, sign-in, and cloud sync need a connection.
-- Is there an Android app? Yes: the app installs from https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk, and on iPhone, iPad, or a computer Cramio opens right on the website with nothing to install.
+- Is there an Android app? Yes: install the app from https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk, and everyone else can use Cramio right on the website.
 - What can I study with Cramio? Your notes and PDFs, topic questions, quizzes, and flashcards; you pick what and when.
