@@ -2,6 +2,11 @@
 
 ## 2026-11-01
 
+### SEO foundation
+
+- New `public/robots.txt` (sitemap ref), `public/sitemap.xml`, and `public/llms.txt` (LLM-friendly site summary)
+- JSON-LD structured data in `index.html` head: Organization, WebSite, WebApplication, and FAQPage mirroring the on-page FAQ verbatim
+
 ### Headline wording revert
 
 - Headline is back to "Cram less. **Learn more.**" in all four spots (H1, `<title>`, `og:title`, `twitter:title`).

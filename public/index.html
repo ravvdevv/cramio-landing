@@ -27,6 +27,78 @@
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href="/styles.css" />
     <title>Cramio | Cram less. Learn more.</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://cramio.site/#org",
+          "name": "Cramio",
+          "url": "https://cramio.site/",
+          "logo": "https://cramio.site/icon.png",
+          "slogan": "Cram less. Learn more."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://cramio.site/#site",
+          "url": "https://cramio.site/",
+          "name": "Cramio",
+          "description": "Study with less chaos. Keep your notes, PDFs, AI study chat, quizzes, and flashcards together in one focused space with Cramio.",
+          "publisher": { "@id": "https://cramio.site/#org" },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "WebApplication",
+          "name": "Cramio",
+          "url": "https://app.cramio.site/",
+          "applicationCategory": "EducationalApplication",
+          "operatingSystem": "Web, Android",
+          "description": "A focused study space with notes, PDFs, AI study chat, quizzes, and flashcards. Android-first, with a web app that works in any browser.",
+          "offers": { "@type": "Offer", "url": "https://app.cramio.site/", "availability": "https://schema.org/InStock" },
+          "publisher": { "@id": "https://cramio.site/#org" }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://cramio.site/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Can I use Cramio on the web?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes — and if you're not on Android, it's the way in. Open the web app in your browser on iPhone, iPad, or desktop and sign in to the same study space, same account."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Cramio work offline?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Some content stored on your device may be available offline. AI chat, sign-in, and cloud sync need an internet connection."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the Android app publicly downloadable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Cramio is Android-first, and the app ships through a restricted release channel for now — public APK downloads aren't available yet. In the meantime, anyone can use the web app in their browser."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What can I study with Cramio?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bring your notes and PDFs, ask questions about topics, and review with quizzes and flashcards. You choose what to study and when."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <svg class="sprite" aria-hidden="true" focusable="false">

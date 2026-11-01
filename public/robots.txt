@@ -1,0 +1,5 @@
+# Cramio landing page — https://cramio.site
+User-agent: *
+Allow: /
+
+Sitemap: https://cramio.site/sitemap.xml
