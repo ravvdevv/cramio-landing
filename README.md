@@ -19,4 +19,4 @@
 
 - **[Web app](https://app.cramio.site)** &middot; the real product, right now &middot; any browser on iPhone, iPad, or desktop, same account everywhere
 - **[Landing page](https://cramio.site)** &middot; https://cramio.site &middot; public site + Android web-update host
-- **Android app** &middot; the native one is Android-first &middot; everyone else: the web app covers you in any browser
+- **Android app** &middot; APK download on the [releases page](https://github.com/ravvdevv/cramio-landing/releases/latest) &middot; the web app covers everyone else in any browser
