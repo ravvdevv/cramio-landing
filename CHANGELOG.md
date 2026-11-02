@@ -2,6 +2,12 @@
 
 ## 2026-11-02
 
+### Self-hosted OTA update 1.0.4
+
+- Publishes the 1.0.4 web bundle to `https://cramio.site/updates/1.0.4.zip` and advances the live OTA manifest to version 1.0.4.
+- Keeps `minNativeVersion` at 1.0.3, so the updater-enabled Android 1.0.3 app can receive the web update without reinstalling an APK.
+- Preserves the immutable 1.0.3 bundle for clients that still need it. The Android APK release remains 1.0.3; this is an OTA-only update.
+
 ### SEO pages, study guides, and discoverability
 
 - Added dedicated search landing pages for AI flashcards, AI quiz generation, PDF-to-flashcards, AI notes, the Android app, and About Cramio.
@@ -17,8 +23,6 @@
 - Restored the original in-page anchor navigation in the header after testing the dedicated-page navigation.
 - Refined the header's Open Cramio button and Android download CTA styling.
 - Tightened marketing copy to use shorter, clearer language for students.
-
-## 2026-11-01
 
 ## 2026-11-01
 
