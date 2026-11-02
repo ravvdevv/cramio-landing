@@ -14,7 +14,7 @@ Standalone single-page marketing site for Cramio in **vanilla HTML/CSS/JS**. Dep
 
 ## Hard constraints (from README + CHANGELOG)
 
-- The APK is publicly downloadable: it ships on this repo's GitHub Releases as `cramio-vX.Y.Z.apk`. CTAs use the direct, auto-saving link (`https://github.com/ravvdevv/cramio-landing/releases/latest/download/cramio-v1.0.3.apk`) while FAQ answers and `llms.txt` may link the releases page. Direct links embed the version, so update them whenever a new release ships.
+- The APK is publicly downloadable from the latest GitHub Release. All site CTAs use the stable `/download` route, implemented by `functions/download.js`, which discovers the latest release APK through the GitHub Releases API and redirects to its asset URL. Never hardcode release versions or asset filenames in page content.
 - Hero/banner and brand/mascot images live in this repo's `public/` folder and are referenced with root-absolute paths (`/banner.jpg`, `/icon.png`).
 
 ## Site conventions
