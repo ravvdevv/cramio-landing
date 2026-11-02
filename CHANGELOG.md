@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-11-02
+
+### SEO pages, study guides, and discoverability
+
+- Added dedicated search landing pages for AI flashcards, AI quiz generation, PDF-to-flashcards, AI notes, the Android app, and About Cramio.
+- Added a public study-guide blog with original articles on effective AI flashcards, converting PDF notes into flashcards, and spaced repetition.
+- Expanded structured data with EducationalOrganization, SoftwareApplication, WebPage, BlogPosting, ImageObject, and BreadcrumbList metadata where relevant.
+- Added sitemap entries for the new landing pages and blog content, plus richer robots directives and social preview metadata.
+- Improved crawlability by ensuring page content remains visible when JavaScript is unavailable.
+- Added author, publisher, publication date, modification date, and image dimensions to relevant structured data.
+
+### Landing page polish
+
+- Fixed the mobile hero floating card so it no longer overlaps the banner, and removed the decorative typing caret.
+- Restored the original in-page anchor navigation in the header after testing the dedicated-page navigation.
+- Refined the header's Open Cramio button and Android download CTA styling.
+- Tightened marketing copy to use shorter, clearer language for students.
+
+## 2026-11-01
+
 ## 2026-11-01
 
 ### Public Android release + APK download links
