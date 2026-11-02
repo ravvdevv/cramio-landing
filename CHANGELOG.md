@@ -2,6 +2,14 @@
 
 ## 2026-11-02
 
+### Version-independent Android download
+
+- Replaced version-specific APK URLs with the stable `/download` route across landing pages and `llms.txt`.
+- Added a Cloudflare Pages Function that resolves the latest published GitHub Release and redirects to its APK asset, so future releases require no website edits.
+
+
+## 2026-11-02
+
 ### Self-hosted OTA update 1.0.4
 
 - Publishes the 1.0.4 web bundle to `https://cramio.site/updates/1.0.4.zip` and advances the live OTA manifest to version 1.0.4.
