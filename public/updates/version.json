@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "enabled": true,
   "version": "1.0.5",
-  "minNativeVersion": "1.0.5",
+  "minNativeVersion": "1.0.4",
   "bundleUrl": "https://cramio.site/updates/1.0.5.zip",
   "checksum": "8394b946ff167f3859f84e71dd26a7ffe02b9677d8a75be073dc432cf3f6fd8c"
 }
