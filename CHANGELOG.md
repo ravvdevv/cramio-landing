@@ -2,6 +2,13 @@
 
 ## 2026-11-26
 
+### Favicon standardization for search and devices
+
+- Root cause: every page declared only `/favicon.ico` and `/favicon-32x32.png` (plus the Apple touch icon); no 48×48 PNG file or declaration existed, so Google Search had no explicit 48×48 PNG favicon to discover.
+- Added `public/favicon-48.png` (48×48 RGBA PNG), derived from the official 512×512 `public/icon.png` with transparency preserved. No existing branding asset was overwritten and no new logo was introduced.
+- Added the `sizes="48x48"` PNG declaration to all landing pages, including `404.html`, keeping the existing ICO, 32×32 PNG, Apple touch icon, and web app manifest declarations intact with no duplicates.
+- Verified the source tree, local HTTP responses, MIME types, image dimensions, ICO frame sizes, and unchanged `robots.txt` / `sitemap.xml`. The production URL still requires the normal Cloudflare Pages deployment before `/favicon-48.png` resolves live; Google recrawling is separate.
+
 ### Self-hosted OTA update 1.0.10
 
 - Publishes the corrected `1.0.10` web bundle to `https://cramio.site/updates/1.0.10.zip` and advances the live manifest to version `1.0.10` with `minNativeVersion` `1.0.3`.
