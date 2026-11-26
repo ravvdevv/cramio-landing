@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.0.8",
+  "version": "1.0.9",
   "minNativeVersion": "1.0.3",
-  "bundleUrl": "https://cramio.site/updates/1.0.8.zip",
-  "checksum": "923fd1cef0faeaae2eece09d16d019a9d944c436e1129332d0b46fb76d021ab9"
+  "bundleUrl": "https://cramio.site/updates/1.0.9.zip",
+  "checksum": "1fcb17b5df1694064e43aac85198145be5259ddcb2de57c888e205d85fef2e83"
 }
