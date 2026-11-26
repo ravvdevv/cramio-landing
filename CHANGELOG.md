@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-26
+
+### Self-hosted OTA update 1.0.10
+
+- Publishes the corrected `1.0.10` web bundle to `https://cramio.site/updates/1.0.10.zip` and advances the live manifest to version `1.0.10` with `minNativeVersion` `1.0.3`.
+- Replaces the broken `1.0.9` bundle, which was built without the production Clerk/Supabase `VITE_*` values and showed the setup screen instead of the app. The corrected bundle contains the real publishable values, the non-blocking generation notice, and the final icon sizing.
+- Keeps every older immutable ZIP, including `1.0.9.zip`, so clients that have not updated can still resolve their assigned version. The Android APK release remains unchanged; this is an OTA-only update.
+
 ## 2026-11-02
 
 ### Version-independent Android download
